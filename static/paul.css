@@ -23,6 +23,7 @@ a{ color: #c40b00; }
     bottom: 0;
     color: #fff;
     width: 250px;
+    /*width: 60%;*/
     position: fixed;
     overflow: hidden;
     overflow-y: auto;
@@ -113,7 +114,8 @@ main section{
 
 #info{ background: url(img/bg-1.png) fixed; }
 /*#skills{ background: #f8bd24; }*/
-#skills{ background: #AACBF7; }
+/*#skills{ background: #AACBF7; }*/
+#edu{ background: #AACBF7; }
 #works{ background: url(img/bg-2.png) fixed; }
 #team{ background: url(img/bg-3.png) fixed; }
 
@@ -132,10 +134,13 @@ main section{
 #skills .title:before{
     content: "\f19d";
 }
+#edu .title:before{
+    content: "\f19d";
+}
 #works .title:before{
     content: "\f091";
 }
-#story .title:before{
+#photo .title:before{
     content: "\f0b1";
 }
 #team .title:before{
