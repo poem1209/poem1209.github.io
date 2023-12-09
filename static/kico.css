@@ -15,7 +15,13 @@ pre, code, form, p,
 fieldset, legend, figure{
     margin: 0;
     padding: 0;
+    /*padding: 100px;*/
 }
+
+/*html {*/
+/*    width: 50%; !* 设置页面宽度为100% *!*/
+/*    margin: 0 auto; !* 居中页面内容 *!*/
+/*}*/
 
 body{
     color: #353535;
