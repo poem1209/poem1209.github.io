@@ -1,289 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to CHF’s website~</title>
-    <meta name="theme-color" content="#ffc91d"/>
-    <link rel="icon" href="static/img/thunder.jpg" sizes="900x900"/>
-    <link href="static/kico.css" rel="stylesheet" type="text/css"/>
-    <link href="static/paul.css" rel="stylesheet" type="text/css"/>
-<!--    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>-->
-    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/29500b62b1.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<aside class="sidebar">
-    <div class="avatar">
-        <img src="static/img/pic2.jpg" title="ccccchf"/>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="images/avatar.jpg" alt="Hanfeng Chen">
+                </div>
+                <h1>Hanfeng Chen</h1>
+                <a href="https://ecnuvis.net/">ECNU Visualization Lab</a>
+                <p class="email">hfchen@stu.ecnu.edu.cn</p>
+                <p class="email">No.2, Xueyuan Road, <br>Yiwu City, Zhejiang Province</p>
+                <!-- <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div> -->
+            </div>
+        </aside>
+
+        <main class="main-content">
+
+            <section class="about-me">
+                <h2>About Me</h2>
+                <p>Hello~ <br>I am <strong><em>Hanfeng Chen (陈晗锋)</em></strong>, currently a full-time teacher at Yiwu Industrial and Commercial College (YWICC). Before that, I received my master's degree in Computer Science and Technology from East China Normal University (ECNU), supervised by <a href="http://chenhui.li/"><strong><em>Prof. Chenhui li</em></strong></a>.</p>
+            </section>
+
+            <section class="research-interests">
+                <h2>Research Interests</h2>
+                <ul>
+                    <li>Artificial Intelligence Generated Content (AIGC)</li>
+                    <li>Data Visualization</li>
+                    <li>Human-centered AI</li>
+                </ul>
+            </section>
+
+            <section class="news">
+                <h2>News</h2>
+                <ul class="news-list">
+                    <li><span class="date">[Nov. 2024]</span> Our project won the Gold Award in the World Vocational College Skills Competition!</li>
+                    <li><span class="date">[Apr. 2024]</span> Our paper <strong><em>GeoVis: a data-driven geographic visualization recommendation system via latent space encoding</em></strong> is accepted by Journal of Visualization!</li>
+                    <li><span class="date">[Aug. 2023]</span> Start my career at YWICC 🏫</li>
+                    <li><span class="date">[Jun. 2023]</span> Graduated from <strong><em>East China Normal University</em></strong>. Got my Master's Degree 🎓</li>
+                </ul>
+            </section>
+
+            <section class="publications">
+                <h2>Publications</h2>
+                <div class="publication">
+                    <div class="paper-image">
+                        <img src="images/Pub/Geovis.png" alt="Paper visualization">
+                    </div>
+                    <div class="publication-content">
+                        <h3>GeoVis: a data-driven geographic visualization recommendation system via latent space encoding</h3>
+                        <p class="authors"><strong><em>Hanfeng Chen</em></strong>, Shiqi Jiang, Xuan Yu, Hong Yin, Xiping Wang, Yanpeng Hu, Changbo Wang, Chenhui Li</p>
+                        <p class="venue"> Journal of Visualization, 2024.</p>
+                        <div class="paper-links">
+                            <a href="https://link.springer.com/article/10.1007/s12650-024-00986-y" class="paper-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="publication">
+                    <div class="paper-image">
+                        <img src="images/paper1.png" alt="Paper visualization">
+                    </div>
+                    <div class="publication-content">
+                        <h3>Influence Maximization in Temporal Social Networks with a Cold-start Problem: A Supervised Approach</h3>
+                        <p class="authors">Laixin Xie, Ying Zhang, Xiyuan Wang, <strong>Shiyi Liu</strong>, Shenghan Gao, Xingxing Xing, Wei Wan, Haipeng Zhang, Quan Li</p>
+                        <p class="venue">ICWSM, 2025.</p>
+                        <div class="paper-links">
+                            <a href="#" class="paper-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                        </div>
+                    </div>
+                </div> -->
+            </section>
+
+            <section class="competition-project">
+                <h2>Competition & Project</h2>
+                <div class="competition-item publication">
+                    <div class="paper-image">
+                        <img src="images/Project/Project-1.png" alt="Competition 1">
+                    </div>
+                    <div class="publication-content">
+                        <h3>China PPE Digital Team Board</h3>
+                        <p class="authors">Enterprise Management Dashboard, Project</p>
+                        <p class="venue">2024</p>
+                    </div>
+                </div>
+                <div class="competition-item publication">
+                    <div class="paper-image">
+                        <img src="images/Competition/World2024.png" alt="Project 1">
+                    </div>
+                    <div class="publication-content">
+                        <h3>World Vocational College Skills Competition</h3>
+                        <p class="authors">Gold Award, Competition</p>
+                        <p class="venue">2024</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="life-gallery">
+                <h2>Life Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/Life Gallery/photo_1.jpg" alt="Life photo 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Life Gallery/photo_3.jpg" alt="Life photo 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Life Gallery/photo_2.jpg" alt="Life photo 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Life Gallery/P1011664-1.jpg" alt="Life photo 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Life Gallery/P1012829-1.png" alt="Life photo 5">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Life Gallery/P1012682-1.png" alt="Life photo 6">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Life Gallery/P1012865-1.png" alt="Life photo 7">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Life Gallery/PA150290-2.jpg" alt="Life photo 8">
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
 
-    <nav class="nav">
-        <a href="#info">About Me</a>
-        <a href="#edu">Edu&Interest</a>
-        <a href="#works">Project</a>
-        <a href="#photo">Life Gallery</a>
-<!--        <a href="#team">Team</a>-->
-    </nav>
-    <p></p>
-    <div class="txt">
-        <p><center>------------------------------------</center></p>
-        <h3><center>Infomation</center></h3>
-        <p><center><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i> hfchen@stu.ecnu.edu.cn</center></p>
-        <p><center><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i> No.2, Xueyuan Road, Yiwu City, Zhejiang Province</center></p>
-    </div>
-</aside>
-<main>
-    <section id="info">
-        <div class="wrap">
-            <h2 class="title">About Me</h2>
-
-            <div class="row" style="text-indent:1.5em;">
-                <h3>Hello~</h3>
-                <p><h4>My name is Hanfeng Chen (陈晗锋), and I am currently a full-time teacher at Yiwu Industrial and Commercial College.
-                    Before that, I received my master's degree in Computer Science and Technology from East China Normal University (ECNU), supervised by <a href="//chenhui.li/">Prof. Chenhui li</a>.</p>
-                <p>Recently, I have focused more on:</p>
-                <li>Using AI-Generated Content (AIGC) technology for creative design; </li>
-                <li>Using deep learning technology to mine the artistic characteristics of literary works.</li>
-                </h4>
-
-            </div>
-        </div>
-    </section>
-    <section id="edu">
-        <div class="wrap">
-            <h2 class="title">Education & Research Interests</h2>
-
-            <div class="row">
-                <div class="col-l-6">
-                    <h3>Education</h3>
-                    <h4><li>Taiyuan University of Technology (TYUT)</li></h4>
-                    <h4><p>Major: Information and Computer Science</p></h4>
-                    <h4><li>East China Normal University (ECNU)</li></h4>
-                    <h4><p>Major: Computer Science and Technology</p></h4>
-                </div>
-
-                <div class="col-l-6">
-                    <h3>Research Interests</h3>
-                    <h4><li>Artificial Intelligence Generated Content (AIGC)</li></h4>
-                    <h4><li>Data Visualization</li></h4>
-                    <h4><li>Human-centered AI</li></h4>
-                </div>
-
-            </div>
-        </div>
-    </section>
-<!--    <section id="skills">-->
-<!--        <div class="wrap">-->
-<!--            <h2 class="title">掌握的技能</h2>-->
-<!--&lt;!&ndash;            <div class="row scrollable">&ndash;&gt;-->
-<!--            <div class="container">-->
-<!--                <div class="row">-->
-<!--                    <div class="col-s-6 col-m-4 center-fixed">-->
-<!--                        <div class="skills-icon">-->
-<!--&lt;!&ndash;                            <i class="fa fa-html5"></i>&ndash;&gt;-->
-<!--                                <i class="fa-brands fa-html5"></i>-->
-<!--                        </div>-->
-<!--                        <div class="skills-title">-->
-<!--                            <h3>HTML 5</h3>-->
-<!--                            <p>熟悉 HTML5 网站的架构和开发</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-s-6 col-m-4 center-fixed">-->
-<!--                        <div class="skills-icon">-->
-<!--&lt;!&ndash;                            <i class="fa fa-css3"></i>&ndash;&gt;-->
-<!--                                <i class="fa-brands fa-css3"></i>-->
-<!--                        </div>-->
-<!--                        <div class="skills-title">-->
-<!--                            <h3>CSS3</h3>-->
-<!--                            <p>熟悉使用 CSS3 写响应式网站、动画等</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-s-6 col-m-4 center-fixed">-->
-<!--                        <div class="skills-icon">-->
-<!--&lt;!&ndash;                            <i class="fa fa-code"></i>&ndash;&gt;-->
-<!--                                <i class="fa-brands fa-js"></i>-->
-<!--                        </div>-->
-<!--                        <div class="skills-title">-->
-<!--                            <h3>JavaScript</h3>-->
-<!--                            <p>能熟练使用 JS 制作程序、交互与特效</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-
-<!--                <div class="row" style="position:relative;top:40px">-->
-<!--                    <div class="col-s-6 col-m-4 center-fixed">-->
-<!--                        <div class="skills-icon">-->
-<!--                            <i class="fa-brands fa-java"></i>-->
-<!--                        </div>-->
-<!--                        <div class="skills-title">-->
-<!--                            <h3>Java</h3>-->
-<!--                            <p>会一点Java~</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-s-6 col-m-4 center-fixed">-->
-<!--                        <div class="skills-icon">-->
-<!--                            <i class="fa-brands fa-python"></i>-->
-<!--                        </div>-->
-<!--                        <div class="skills-title">-->
-<!--                            <h3>Python</h3>-->
-<!--                            <p>能熟练利用 python 进行数据分析与处理</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-s-6 col-m-4 center-fixed">-->
-<!--                        <div class="skills-icon">-->
-<!--                            &lt;!&ndash;                            <i class="fa fa-code"></i>&ndash;&gt;-->
-<!--                            <i class="fa-solid fa-laptop-code"></i>-->
-<!--                        </div>-->
-<!--                        <div class="skills-title">-->
-<!--                            <h3>Deep & Machine Learning</h3>-->
-<!--                            <p>熟悉深度学习与机器学习模型，并熟练应用</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-    <section id="works">
-        <div class="wrap">
-            <h2 class="title">Project</h2>
-            <div class="row">
-<!--                <div class="col-s-6" style="position:relative;left:0px;top:150px;width:400px;height:100px">-->
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/pic_1.png" height="2000" width="2000"/>
-                        <h4><p>China PPE Digital Team Board</p></h4>
-                    </div>
-                </div>
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/aa2.png" height="2000" width="2000"/>
-                        <h4><p>Some Websites</p></h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--    <section id="story">-->
-<!--        <div class="wrap">-->
-<!--            <h2 class="title">个人经历</h2>-->
-<!--            <div class="row">-->
-<!--                <div class="col-m-8">-->
-<!--                    <ul class="timeline">-->
-<!--                        <li>2015.07.03：创立缤奇（Binkic）团队</li>-->
-<!--                        <li>2015.12.20：仿照某动漫官网编写模板，并搭建运营了一个动漫型社区</li>-->
-<!--                        <li>2016.05.30：带领团队进行招新，并发起了首个游戏项目：<a>色块冲刺</a></li>-->
-<!--                        <li>2016.08.17：为团队制作了首部宣传片：<a href="https://www.bilibili.com/video/av14078749" target="_blank">创意可以改变什么</a></li>-->
-<!--                        <li>2016.12.08：个人编写的前端响应式框架 <a href="https://kico.binkic.com/style" target="_blank">Kico Style</a> 初现雏形</li>-->
-<!--                        <li>2017.03.01：基于 Kico Style 的第一个原创 <a href="https://www.binkic.com" target="_blank">缤奇团队官网</a> 正式上线</li>-->
-<!--                        <li>2017.04.27：使用前端技术编写的 <a href="https://github.com/Dreamer-Paul/Meeting" target="_blank">梦想晨会</a> 制作完成</li>-->
-<!--                        <li>2017.06.07：参加“众创杯”创业大赛校园选拔赛，团队项目荣获三等奖</li>-->
-<!--                        <li>2017.06.17：动漫门户网站制作完成，内含一个自己设计的简单音乐播放器</li>-->
-<!--                        <li>2017.06.25：参加全国中职信息技术技能大赛微网站项目，荣获一等奖</li>-->
-<!--                        <li>2017.08.03：原创博客主题 <a href="https://github.com/Dreamer-Paul/Single" target="_blank">Single</a> 发布，截至 2 月共有 66 Stars</li>-->
-<!--                        <li>2017.09.19：个人编写的播放器 <a href="https://kico.binkic.com/player" target="_blank">Kico Player</a> 发布测试版</li>-->
-<!--                        <li>2017.12.12：基于 ES6 的时钟小工具 <a href="https://kico.binkic.com/tools" target="_blank">Kico Tools</a> 发布测试版</li>-->
-<!--                        <li>2017.12.18：第一个基于 PHP 的个人首页 <a href="https://paul.gq" target="_blank">Sweet</a> 发布正式版</li>-->
-<!--                        <li>2018.01.01：缤奇团队新<a href="https://www.binkic.com" target="_blank">官网</a>正式上线，后端采用 Typecho 驱动</li>-->
-<!--                        <li>2018.02.16：结合前后端制作了一个春节的<a href="https://paugram.com/coding/css-red-packet.html" target="_blank">问答红包</a>，使用正则判断答案</li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-<!--                <div class="col-m-4 center-fixed">-->
-<!--                    <img src="static/img/story.png"/>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-    <section id="photo">
-        <div class="wrap">
-            <h2 class="title">Life Gallery</h2>
-            <div class="row">
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/photo_1.jpg" height="2000" width="2000"/>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/photo_3.jpg" height="2000" width="2000"/>
-                    </div>
-                </div>
-
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/photo_2.jpg" height="2000" width="2000"/>
-                    </div>
-                </div>
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/PA150114-5.jpg" height="2000" width="2000"/>
-                        <p>同事P的好~</p>
-                    </div>
-                </div>
-
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/P1012829-1.png" height="2000" width="2000"/>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/P1012682-1.png" height="2000" width="2000"/>
-                    </div>
-                </div>
-
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/P1011664-1.jpg" height="2000" width="2000"/>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/P1012865-1.png" height="2000" width="2000"/>
-                    </div>
-                </div>
-
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/PA150290-2.jpg" height="2000" width="2000"/>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-s-6">
-                    <div class="works-item">
-                        <img src="static/img/works/PA150136-2.jpg" height="2000" width="2000"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--    <section class="content-d" id="team">-->
-<!--        <div class="wrap">-->
-<!--            <h2 class="title">Team (ECNUVis)</h2>-->
-<!--            <div class="row">-->
-<!--                <div class="col-m-6">-->
-<!--                    <p>华东师范可视化小组由一群热爱科技创新的蒟蒻所组成，做到了“可视化创新”与“可视化应用”的相结合。大家经常集思广益，讨论生动有趣的创意。ECNUVis如今有超过20名成员，各个同学都互帮互助，为不同的目标而努力进取着。</p>-->
-<!--                    <p>ECNUVis致力于开发原创数据分析平台、Dashboard等项目。目前我们已完成项目有国家自然科学青年基金项目（基于核密度估计的大规模空间流数据可视化关键技术研究）、华鑫股份有限公司校企合作（金融科技课题研究）等。团队小组科研氛围浓，注重编程实践的培养，同学们相处融洽，毕业去向好。</p>-->
-<!--&lt;!&ndash;                    <p>团队官网：<a href="https://www.binkic.com">https://www.binkic.com</a></p>&ndash;&gt;-->
-<!--                </div>-->
-<!--                <div class="col-m-6 center">-->
-<!--                    <img src="static/img/ecnuvis_2_preview_rev_1.png"/>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-    <footer>
-        <p>© 2023 By <a href="https://paugram.com" title="poem1209的博客" target="_blank">CCCCChf</a>.</p>
-    </footer>
-</main>
-
-<script src="static/kico.js"></script>
-<script src="static/paul.js"></script>
-
+    <script src="js/main.js"></script>
 </body>
 </html>
